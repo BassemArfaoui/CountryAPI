@@ -41,7 +41,7 @@ CountryAPI is a comprehensive API that provides detailed information about any c
 3. Set up the PostgreSQL database:
 
    - Create a new PostgreSQL database.
-   - Run the provided SQL script to set up the database schema.
+   - use the scv to create the database.
 
 4. Configure environment variables:
 
