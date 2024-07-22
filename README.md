@@ -28,8 +28,8 @@ CountryAPI is a comprehensive API that provides detailed information about any c
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/BassemArfaoui/CountryAPI.git
-   cd CountryAPI
+   git clone https://github.com/BassemArfaoui/CountryAPI-with-Postgres.git
+   cd CountryAPI-with-Postgres
    ```
 
 2. Install dependencies:
