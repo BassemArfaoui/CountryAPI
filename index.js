@@ -661,7 +661,7 @@ app.post('/bearerToken', async (req, res) => {
 
 //documentation
 app.get('/', async (req,res)=>{
-
+  res.redirect('https://documenter.getpostman.com/view/36645222/2sA3kUGhjm')
 });
 
 
