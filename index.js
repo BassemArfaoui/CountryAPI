@@ -450,7 +450,7 @@ app.get('/country/code/:code',requireApiKey, async (req, res) => {
 
 });
 
-app.get('/country/idd/:idd',requireApiKey, async (req, res) => {
+app.get('/countries/idd/:idd',requireApiKey, async (req, res) => {
   const idd= req.params.idd;
   try{
       const country_arr= await getCountryByIdd(idd);
@@ -561,7 +561,7 @@ app.delete('/delete/:id', authenticateToken,async (req, res) => {
   }
 });
 
-app.delete('countries/clear', authenticateToken,async (req, res) => {
+app.delete('/countries/clear', authenticateToken,async (req, res) => {
   try {
     const deletedCountries = await deleteAll();
     res.json({Success:'All Countries deleted successfully'});
